@@ -5,7 +5,7 @@ import Link from "next/link";
 import { HiOutlineUserAdd } from "react-icons/hi";
 const NavBar: NextPage = () => {
   return (
-    <header className="container flex flex-col  justify-center items-center py-5 xl:flex-row xl:justify-around  m-auto relative">
+    <header className="container flex flex-col  justify-center items-center py-5 xl:flex-row xl:justify-around  m-auto relative ">
       <div className="hidden xl:block">
         <Image
           src={"/NavBarLogoLeftSide.svg"}
@@ -24,7 +24,7 @@ const NavBar: NextPage = () => {
       </div>
       <nav className="my-4">
         <ul className="flex justify-center items-center">
-          <button className="w-[111px] h-[49px] border-2 rounded-2xl bg-gradient-to-l to-[#27c4a7de] from-[#4BBF49] text-white font-Roboto hidden md:block hover:text-black">
+          <button className="w-[111px] h-[49px] border-2 rounded-2xl bg-gradient-to-l to-[#27c4a7de] from-[#4BBF49] text-white font-Roboto hidden xl:block hover:text-black ">
             Home
           </button>
           <li className="text-gray-500 font-Roboto md:mx-10 mx-5  hover:text-gray-600">
@@ -47,7 +47,7 @@ const NavBar: NextPage = () => {
               Login
             </Link>
           </li>
-          <button className="w-[198px] h-[49px] bg-gradient-to-l to-[#795ffdee] from-[#3518C9] text-white font-Roboto md:flex justify-center items-center rounded-2xl hidden hover:text-black">
+          <button className="w-[198px] h-[49px] bg-gradient-to-l to-[#795ffdee] from-[#3518C9] text-white font-Roboto xl:flex justify-center items-center rounded-2xl hidden hover:text-black ml-5 ">
             <HiOutlineUserAdd className="text-xl mr-3" />
             Free signup
           </button>
