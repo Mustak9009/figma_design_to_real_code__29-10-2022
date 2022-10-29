@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NavBar from "../components/NavBar";
+import {NavBar,HomeComponent} from "../components";
 export default function Home() {
   return (
     <div>
@@ -10,8 +10,8 @@ export default function Home() {
       </Head>
       <NavBar />
       <hr className="border"/>
-      <main>
-        <h1 className="text-center font-semibold text-5xl">Figma</h1>
+      <main className="container mx-auto mt-10">
+       <HomeComponent/>
       </main>
     </div>
   );
