@@ -58,7 +58,7 @@ function HomeSection1() {
             <pre>{`}`}</pre>
           </div>
         </div>
-        <button className="px-6 py-3 flex gap-2  items-center bg-gradient-to-r  from-[#795FFD] to-[#3518C9] text-white rounded-xl hover:text-black">
+        <button className="px-4 sm:px-6 py-3 flex gap-2  items-center bg-gradient-to-r  from-[#795FFD] to-[#3518C9] text-white rounded-xl hover:text-black">
           <Image
             src={"/CopyLogo.png"}
             alt="Design to code"
