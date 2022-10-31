@@ -33,7 +33,7 @@ export default function Home() {
 }
 function HomeSection1() {
   return (
-    <div className="shadow-xl border rounded-md md:flex  justify-around mt-16 ">
+    <div className="shadow-xl border rounded-3xl md:flex  justify-around transform translate-y-14 bg-white ">
       <section className="text-left md:w-1/2 border-r p-4">
         <div>
           <div className="flex items-center">
