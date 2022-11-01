@@ -8,7 +8,7 @@ const NavBar: NextPage = () => {
     <header className="container flex flex-col  justify-center items-center py-5 xl:flex-row xl:justify-around  m-auto relative ">
       <div className="hidden xl:block">
         <Image
-          src={"/NavBarLogoLeftSide.svg"}
+          src={"/NavBarLeftSideLogo.svg"}
           alt="Design to code"
           width={100}
           height={100}

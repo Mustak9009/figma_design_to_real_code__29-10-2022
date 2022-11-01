@@ -6,8 +6,28 @@ import { HiOutlineClipboardList, HiOutlineUserAdd } from "react-icons/hi";
 
 export default function HomeComponent2() {
   return (
-    <div className=" w-full bg-gradient-to-r   from-[#785EFD] to-[#371BCB] -z-20"> {/**/}
-    
+    <div className=" w-full bg-gradient-to-r   from-[#785EFD] to-[#371BCB] -z-20 relative">
+      <Image
+        src="/PolygonCircle.svg"
+        alt="Design to code"
+        width={120}
+        height={100}
+        className='absolute top-56 right-28 hidden xl:block'
+      />
+      <Image
+        src="/CirclePolygon.svg"
+        alt="Design to code"
+        width={150}
+        height={100}
+        className='absolute -top-28 hidden xl:block'
+      />
+      <Image
+        src={"/DotLogo2.svg"}
+        alt="Design to code"
+        width={200}
+        height={100}
+        className='absolute top-96 2xl:left-24 xl:left-10 hidden xl:block'
+      />
       <div className="max-w-7xl mx-auto">
         <div className="pt-16  flex items-center justify-center flex-wrap">
           <div className="relative">
