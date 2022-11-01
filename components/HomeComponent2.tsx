@@ -3,9 +3,11 @@ import Image from "next/image";
 import { TbArrowsRightLeft, TbCopy, TbMessage2 } from "react-icons/tb";
 import { BsPencil } from "react-icons/bs";
 import { HiOutlineClipboardList, HiOutlineUserAdd } from "react-icons/hi";
+
 export default function HomeComponent2() {
   return (
-    <div className="bg-gradient-to-r  from-[#785EFD] to-[#371BCB] w-full ">
+    <div className=" w-full bg-gradient-to-r   from-[#785EFD] to-[#371BCB] -z-20"> {/**/}
+    
       <div className="max-w-7xl mx-auto">
         <div className="pt-16  flex items-center justify-center flex-wrap">
           <div className="relative">
@@ -49,7 +51,7 @@ export default function HomeComponent2() {
           </div>
         </div>
         <TextArea />
-        <div className="mt-12 flex justify-center items-center flex-wrap p-1 gap-7">
+        <div className="mt-10 flex justify-center items-center flex-wrap p-1 gap-7 pb-6">
           <ContextBox />
           <ContextBox />
           <ContextBox />
@@ -70,7 +72,7 @@ function TextArea() {
           Free Signup
         </button>
       </div>
-      <div className="flex justify-center items-center text-center mt-10 md:mt-16">
+      <div className="flex justify-center items-center text-center mt-10 md:mt-12">
         <section className="text-center flex justify-center flex-col items-center">
           <h3 className="md:text-6xl text-4xl font-Inter font-normal   text-transparent bg-clip-text bg-gradient-to-r from-[#38FFDC] to-[#FFE44B] mb-2">
             Use the latest <span className="font-Oswald">AI</span> features
@@ -86,12 +88,12 @@ function TextArea() {
 }
 function ContextBox() {
   return (
-    <section className="flex items-center justify-center bg-white p-4 rounded-xl">
-      <TbMessage2 className="text-5xl mr-2 " />
+    <section className="flex items-center justify-center bg-gray-700 p-4 rounded-xl  after:absolute after:top-1 after:bottom-1 after:right-0 after:left-0 after:bg-white relative after:-z-10 z-10 after:rounded-lg -rotate-3 after:rotate-3">
+      <TbMessage2 className="text-5xl rotate-3 mb-4" />
       <article>
-        <p className="text-gray-500">Content</p>
-        <h4 className="text-3xl">Explain Code</h4>
-        <p className="text-gray-600">
+        <p className="text-gray-500 rotate-3">Content</p>
+        <h4 className="text-3xl rotate-3">Explain Code</h4>
+        <p className="text-gray-600 rotate-3">
           Explain some code based on the syntax provided
         </p>
       </article>
